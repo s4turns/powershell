@@ -28,7 +28,7 @@ $apps = @(
     "AhnLab.V3",                     # AhnLab V3
     "IDRIX.VeraCrypt",               # VeraCrypt disk encryption software
 	"WinSCP.WinSCP",                 # FTP
-	"GIMP.GIMP.3",
+	"GIMP.GIMP.3",                   # Image editing
 	
     # Browsers
     "Google.Chrome",                 # Google Chrome
