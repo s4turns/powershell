@@ -33,7 +33,7 @@ $apps = @(
     
     # Communication
     "Discord.Discord",               # Discord
-    "9NKSQGP7F2NH"                   # WhatsApp
+    "9NKSQGP7F2NH",                  # WhatsApp
 
     # Developer Tools
     "Microsoft.VisualStudioCode",    # Visual Studio Code
@@ -72,3 +72,4 @@ foreach ($appId in $apps) {
 }
 
 Write-Host "`nInstallation process completed." -ForegroundColor Green
+
