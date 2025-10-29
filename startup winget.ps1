@@ -21,11 +21,9 @@ if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
 # ----------------------------------------------
 $apps = @(
     # Utilities
-    "Microsoft.PowerToys",           # Microsoft PowerToys
-    "Microsoft.WindowsTerminal",     # Windows Terminal
+    "Microsoft.PowerShell",          # Windows Powershell 7
     "7zip.7zip",                     # 7-Zip
     "VideoLAN.VLC",                  # VLC Media Player
-    "AhnLab.V3",                     # AhnLab V3
     "IDRIX.VeraCrypt",               # VeraCrypt disk encryption software
 	"WinSCP.WinSCP",                 # FTP
 	"GIMP.GIMP.3",                   # Image editing
@@ -35,7 +33,8 @@ $apps = @(
     
     # Communication
     "Discord.Discord",               # Discord
-    
+    "9NKSQGP7F2NH"                   # WhatsApp
+
     # Developer Tools
     "Microsoft.VisualStudioCode",    # Visual Studio Code
     "Git.Git",                       # Git
@@ -46,8 +45,7 @@ $apps = @(
     "Notepad++.Notepad++",           # Notepad++
     
     # Cloud Storage
-    "Google.GoogleDrive",            # Google Drive for desktop
-    "Microsoft.OneDrive"             # Microsoft OneDrive (often pre-installed)
+    "Google.GoogleDrive"             # Google Drive for desktop
 )
 
 # ----------------------------------------------
